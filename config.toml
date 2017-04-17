@@ -1,0 +1,5 @@
+baseURL = "https://edavis.github.io/hnrss/"
+languageCode = "en-us"
+title = "Hacker News RSS feeds"
+publishDir = "../hnrss/docs/"
+theme = "hnrss"
