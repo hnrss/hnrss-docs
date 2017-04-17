@@ -206,8 +206,8 @@ feeds. The code is a [Flask][] app. It runs on [nginx][] with
 [Varnish][] providing a cache layer and [Let's Encrypt][] providing
 HTTPS.
 
-docs.hnrss.org is built with [Hugo][] and rendered using the
-[Go font family][], courtesy of the Golang project.
+This documentation is built with [Hugo][], rendered using the
+[Go font family][], and hosted on Github Pages.
 
 [Algolia]: https://hn.algolia.com/api
 [Flask]: http://flask.pocoo.org/
