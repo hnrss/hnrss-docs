@@ -60,7 +60,7 @@ If you want a single search feed but multiple keywords, separate the
 keywords with " OR ":
 
 <pre>
-https://hnrss.org/newest?q="git"+OR+"linux"
+https://hnrss.org/newest?q=git+OR+linux
 </pre>
 
 ### Self Post Feeds
