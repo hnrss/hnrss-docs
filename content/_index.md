@@ -210,6 +210,8 @@ HTTPS.
 This documentation is built with [Hugo][], rendered using the
 [Go font family][], and hosted on Github Pages.
 
+The source of [the app][github-hnrss] and [the documentation][github-hnrss-docs] are hosted on Github.
+
 [Algolia]: https://hn.algolia.com/api
 [Flask]: http://flask.pocoo.org/
 [nginx]: http://nginx.org/
@@ -217,3 +219,5 @@ This documentation is built with [Hugo][], rendered using the
 [Let's Encrypt]: https://letsencrypt.org/
 [Hugo]: https://gohugo.io/
 [Go font family]: https://blog.golang.org/go-fonts
+[github-hnrss]: https://github.com/edavis/hnrss
+[github-hnrss-docs]: https://github.com/edavis/hnrss-docs
