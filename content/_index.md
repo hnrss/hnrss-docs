@@ -170,6 +170,7 @@ There is a hardcoded limit of 100 entries, so keep that in mind.
 ## ChangeLog
 
 - April 2017
+  - Improve handling of search feeds with multiple queries
   - Cleanup docs and move them to Hugo.
   - Fix warnings from the w3.org feed validator.
 - March 2017
