@@ -12,6 +12,7 @@ The following feeds are available:
 - **Points** -- [Posts](https://hnrss.org/newest?points=300) with more than N points.
 - **Activity** -- [Posts](https://hnrss.org/newest?comments=250) with more than N comments.
 - **Self-posts** -- All "[Ask HN][]" and "[Show HN][]" posts, along with [polls][].
+- **Jobs** -- All [hiring posts][jobs] made by startups funded by YC.
 - **Users** -- New [posts](https://hnrss.org/submitted?id=tokenadult) and [comments](https://hnrss.org/threads?id=tptacek) made by a given user.
 - **Threads** -- Each new comment made [in a given thread](https://hnrss.org/item?id=7864813).
 
@@ -19,6 +20,7 @@ The following feeds are available:
 [Ask HN]: https://hnrss.org/ask
 [Show HN]: https://hnrss.org/show
 [polls]: https://hnrss.org/polls
+[jobs]: https://hnrss.org/jobs
 
 ## Details
 
@@ -65,12 +67,13 @@ https://hnrss.org/newest?q=git+OR+linux
 
 ### Self Post Feeds
 
-Ask HN, Show HN, and polls are available:
+Ask HN, Show HN, polls, and jobs are available:
 
 <pre>
 https://hnrss.org/ask
 https://hnrss.org/show
 https://hnrss.org/polls
+https://hnrss.org/jobs
 </pre>
 
 ### User Feeds
