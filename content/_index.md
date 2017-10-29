@@ -172,6 +172,8 @@ There is a hardcoded limit of 100 entries, so keep that in mind.
 
 ## ChangeLog
 
+- October 2017
+  - Add /jobs endpoint.
 - April 2017
   - Add python3 support.
   - Improve handling of search feeds with multiple queries.
