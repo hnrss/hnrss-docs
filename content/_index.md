@@ -12,7 +12,7 @@ The following feeds are available:
 - **Points** -- [Posts](https://hnrss.org/newest?points=300) with more than N points.
 - **Activity** -- [Posts](https://hnrss.org/newest?comments=250) with more than N comments.
 - **Self-posts** -- All "[Ask HN][]" and "[Show HN][]" posts, along with [polls][].
-- **Jobs** -- All [hiring posts][jobs] made by startups funded by YC.
+- **Jobs** -- All [hiring posts][jobs] made by YC startups along with comments from the monthly ["Who is hiring?"][whoishiring] threads.
 - **Users** -- New [posts](https://hnrss.org/submitted?id=tokenadult) and [comments](https://hnrss.org/threads?id=tptacek) made by a given user.
 - **Threads** -- Each new comment made [in a given thread](https://hnrss.org/item?id=7864813).
 
@@ -21,6 +21,7 @@ The following feeds are available:
 [Show HN]: https://hnrss.org/show
 [polls]: https://hnrss.org/polls
 [jobs]: https://hnrss.org/jobs
+[whoishiring]: https://hnrss.org/whoishiring/jobs
 
 ## Details
 
@@ -67,13 +68,29 @@ https://hnrss.org/newest?q=git+OR+linux
 
 ### Self Post Feeds
 
-Ask HN, Show HN, polls, and jobs are available:
+Ask HN, Show HN, and polls are available:
 
 <pre>
 https://hnrss.org/ask
 https://hnrss.org/show
 https://hnrss.org/polls
+</pre>
+
+### Job Feeds
+
+Job opportunities from YC funded startups:
+
+<pre>
 https://hnrss.org/jobs
+</pre>
+
+Top level comments in threads created by the whoishiring bot:
+
+<pre>
+https://hnrss.org/whoishiring/jobs # "Who is hiring?"
+https://hnrss.org/whoishiring/hired # "Who wants to be hired?"
+https://hnrss.org/whoishiring/freelance # "Freelancer? Seeking freelancer?"
+https://hnrss.org/whoishiring # All of the above
 </pre>
 
 ### User Feeds
@@ -172,6 +189,8 @@ There is a hardcoded limit of 100 entries, so keep that in mind.
 
 ## ChangeLog
 
+- January 2018
+  - Add /whoishiring endpoint (via [@jaredandrews](https://github.com/jaredandrews))
 - October 2017
   - Add /jobs endpoint.
 - April 2017
@@ -200,13 +219,13 @@ There is a hardcoded limit of 100 entries, so keep that in mind.
 
 ## Support
 
-hnrss.org is a labor of love, but if the project has made your job or
-hobby project easier and you want to show some gratitude, donations are
-very much appreciated. Thanks!
+While running hnrss is by no means “breaking the bank,” every little
+bit helps for when the monthly hosting bill or domain registration
+renewal comes due. So if the project has made your job or hobby
+project easier and you want to show some gratitude, donations are very
+much appreciated. Thanks!
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZP9Q7QUNS3QYY)
-
-[![Donate](https://img.shields.io/badge/Donate-Bitcoin-yellow.svg)](https://donate.hnrss.org/)
 
 ## Credits & Colophon
 
