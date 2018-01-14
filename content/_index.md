@@ -87,10 +87,17 @@ https://hnrss.org/jobs
 Top level comments in threads created by the whoishiring bot:
 
 <pre>
-https://hnrss.org/whoishiring/jobs # "Who is hiring?"
-https://hnrss.org/whoishiring/hired # "Who wants to be hired?"
-https://hnrss.org/whoishiring/freelance # "Freelancer? Seeking freelancer?"
-https://hnrss.org/whoishiring # All of the above
+# Comments from "Who is hiring?" threads
+https://hnrss.org/whoishiring/jobs
+
+# Comments from "Who wants to be hired?" threads
+https://hnrss.org/whoishiring/hired
+
+# Comments from "Freelancer? Seeking freelancer?" threads
+https://hnrss.org/whoishiring/freelance
+
+# All of the above
+https://hnrss.org/whoishiring
 </pre>
 
 ### User Feeds
