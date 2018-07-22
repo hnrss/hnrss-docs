@@ -6,15 +6,15 @@ hnrss.org provides custom, realtime RSS feeds for [Hacker News][].
 
 The following feeds are available:
 
-- **Firehose** -- Every new [post](https://hnrss.org/newest) and [comment](https://hnrss.org/newcomments) as it arrives.
-- **Front Page** -- [Posts](https://hnrss.org/frontpage) appearing on the front page.
-- **Searches** -- New [posts](https://hnrss.org/newest?q=git) and [comments](https://hnrss.org/newcomments?q=django) matching a given search term.
-- **Points** -- [Posts](https://hnrss.org/newest?points=300) with more than N points.
-- **Activity** -- [Posts](https://hnrss.org/newest?comments=250) with more than N comments.
-- **Self-posts** -- All "[Ask HN][]" and "[Show HN][]" posts, along with [polls][].
-- **Jobs** -- All [hiring posts][jobs] made by YC startups along with comments from the monthly ["Who is hiring?"][whoishiring] threads.
-- **Users** -- New [posts](https://hnrss.org/submitted?id=tokenadult) and [comments](https://hnrss.org/threads?id=tptacek) made by a given user.
-- **Threads** -- Each new comment made [in a given thread](https://hnrss.org/item?id=7864813).
+- [**Firehose**](#firehose-feeds) -- Every new [post](https://hnrss.org/newest) and [comment](https://hnrss.org/newcomments) as it arrives.
+- [**Front Page**](#firehose-feeds) -- [Posts](https://hnrss.org/frontpage) appearing on the front page.
+- [**Searches**](#search-feeds) -- New [posts](https://hnrss.org/newest?q=git) and [comments](https://hnrss.org/newcomments?q=django) matching a given search term.
+- [**Points**](#activity-parameters) -- [Posts](https://hnrss.org/newest?points=300) with more than N points.
+- [**Activity**](#activity-parameters) -- [Posts](https://hnrss.org/newest?comments=250) with more than N comments.
+- [**Self-posts**](#self-post-feeds) -- All "[Ask HN][]" and "[Show HN][]" posts, along with [polls][].
+- [**Jobs**](#job-feeds) -- All [hiring posts][jobs] made by YC startups along with comments from the monthly ["Who is hiring?"][whoishiring] threads.
+- [**Users**](#user-feeds) -- New [posts](https://hnrss.org/submitted?id=tokenadult) and [comments](https://hnrss.org/threads?id=tptacek) made by a given user.
+- [**Threads**](#thread-feeds) -- Each new comment made [in a given thread](https://hnrss.org/item?id=7864813).
 
 [Hacker News]: https://news.ycombinator.com/
 [Ask HN]: https://hnrss.org/ask
@@ -46,7 +46,7 @@ For just the posts that have appeared on the front page:
 https://hnrss.org/frontpage
 </pre>
 
-If the firehose feeds are a bit too noisy for you, read below on
+If the firehose feeds are a bit too noisy for you, [read below](#activity-parameters) on
 filtering them with the `points` and/or `comments` parameters.
 
 ### Search Feeds
