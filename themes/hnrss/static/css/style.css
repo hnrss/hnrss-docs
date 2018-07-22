@@ -1,7 +1,7 @@
-@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
 
 body {
-	font: 16px/1.5 Go, sans-serif;
+	font: 15px/1.5 Rubik, sans-serif;
 	color: #333;
 	margin: 50px 25px;
 }

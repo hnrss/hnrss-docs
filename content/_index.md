@@ -241,8 +241,7 @@ feeds. The code is a [Flask][] app. It runs on [nginx][] with
 [Varnish][] providing a cache layer and [Let's Encrypt][] providing
 HTTPS.
 
-This documentation is built with [Hugo][], rendered using the
-[Go font family][], and hosted on Github Pages.
+This documentation is built with [Hugo][] and hosted on Github Pages.
 
 The source of [the app][github-hnrss] and [the documentation][github-hnrss-docs] are hosted on Github.
 
