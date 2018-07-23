@@ -144,7 +144,7 @@ You can also combine both parameters:
 <pre>
 https://hnrss.org/show?points=100&comments=25
 </pre>
-	
+
 Unfortunately, `/newcomments` [does not work][] with a `points=N`
 parameter.
 
