@@ -158,15 +158,15 @@ parameter.
 
 Here are some examples:
 
-- https://hnrss.org/newest?q=Wordpress -- Search for posts with
-  "Wordpress" in the title only.
-- https://hnrss.org/newest?q=Wordpress&search_attrs=url -- Search for
-  posts with 'Wordpress' in the URL only.
-- https://hnrss.org/newest?q=Wordpress&search_attrs=title,url -- Search
-  for posts with 'Wordpress' in the title or URL.
-- https://hnrss.org/newest?q=Wordpress&search_attrs=default -- Don't
+- https://hnrss.org/newest?q=WordPress -- Search for posts with
+  "WordPress" in the title only.
+- https://hnrss.org/newest?q=WordPress&search_attrs=url -- Search for
+  posts with 'WordPress' in the URL only.
+- https://hnrss.org/newest?q=WordPress&search_attrs=title,url -- Search
+  for posts with 'WordPress' in the title or URL.
+- https://hnrss.org/newest?q=WordPress&search_attrs=default -- Don't
   restrict search attributes at all. This searches for posts
-  containing 'Wordpress' in all attributes indexed by Algolia. This
+  containing 'WordPress' in all attributes indexed by Algolia. This
   was the behavior of searches prior to June 3, 2015.
 
 #### Link Parameter
