@@ -80,7 +80,7 @@ Keep an eye on replies to your comments:
 https://hnrss.org/replies?id=jerf
 </pre>
 
-Use a comment ID to follow replies of a particular comment:
+Use a comment ID to follow replies to a particular comment:
 
 <pre>
 https://hnrss.org/replies?id=17752464
