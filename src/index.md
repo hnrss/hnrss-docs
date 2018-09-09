@@ -1,4 +1,6 @@
-# Hacker News RSS feeds
+---
+title: Hacker News RSS
+---
 
 ## Overview
 
@@ -158,16 +160,21 @@ parameter.
 
 Here are some examples:
 
-- https://hnrss.org/newest?q=WordPress -- Search for posts with
-  "WordPress" in the title only.
-- https://hnrss.org/newest?q=WordPress&search_attrs=url -- Search for
-  posts with 'WordPress' in the URL only.
-- https://hnrss.org/newest?q=WordPress&search_attrs=title,url -- Search
-  for posts with 'WordPress' in the title or URL.
-- https://hnrss.org/newest?q=WordPress&search_attrs=default -- Don't
-  restrict search attributes at all. This searches for posts
-  containing 'WordPress' in all attributes indexed by Algolia. This
-  was the behavior of searches prior to June 3, 2015.
+<pre>
+# Search for posts with "WordPress" in the title only
+https://hnrss.org/newest?q=WordPress
+
+# Search for posts with 'WordPress' in the URL only
+https://hnrss.org/newest?q=WordPress&search_attrs=url
+
+# Search for posts with 'WordPress' in the title or URL
+https://hnrss.org/newest?q=WordPress&search_attrs=title,url
+
+# Don't restrict search attributes at all. This searches for posts
+# containing 'WordPress' in all attributes indexed by Algolia. This was
+# the behavior of searches prior to June 3, 2015
+https://hnrss.org/newest?q=WordPress&search_attrs=default
+</pre>
 
 #### Link Parameter
 
@@ -197,7 +204,7 @@ There is a hardcoded limit of 100 entries, so keep that in mind.
 ## ChangeLog
 
 - January 2018
-  - Add /whoishiring endpoint (via [@jaredandrews](https://github.com/jaredandrews))
+  - Add /whoishiring endpoint (h/t [\@jaredandrews](https://github.com/edavis/hnrss/pull/23))
 - October 2017
   - Add /jobs endpoint.
 - April 2017
