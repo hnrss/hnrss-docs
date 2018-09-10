@@ -13,14 +13,14 @@ The following feed types are available:
 [**Firehose**](#firehose-feeds) | New [posts](https://hnrss.org/newest) and [comments](https://hnrss.org/newcomments) as they arrive.
 [**Front Page**](#firehose-feeds) | New [posts](https://hnrss.org/frontpage) as they appear on the front page.
 [**Searches**](#search-feeds) | New [posts](https://hnrss.org/newest?q=redis) and [comments](https://hnrss.org/newcomments?q=linux) matching a given search term.
-[**Replies**](#reply-feeds) | New comments in reply to a particular [user](https://hnrss.org/replies?id=jerf) or [comment](https://hnrss.org/replies?id=17752464).
+[**Replies**](#reply-feeds) <sup class=new>new</sup> | New comments in reply to a particular [user](https://hnrss.org/replies?id=jerf) or [comment](https://hnrss.org/replies?id=17752464).
 [**Points**](#activity-parameters) | New [posts](https://hnrss.org/newest?points=300) with more than N points.
 [**Activity**](#activity-parameters) | New [posts](https://hnrss.org/newest?comments=250) with more than N comments.
 [**Self-posts**](#self-post-feeds) | New "[Ask HN](https://hnrss.org/ask)" and "[Show HN](https://hnrss.org/show)" posts, along with [polls](https://hnrss.org/polls).
 [**Jobs**](#job-feeds) | New [hiring posts](https://hnrss.org/jobs) made by YC startups along with comments from the monthly ["Who is hiring?"](https://hnrss.org/whoishiring/jobs) threads.
 [**Users**](#user-feeds) | New [posts](https://hnrss.org/submitted?id=jacquesm) and [comments](https://hnrss.org/threads?id=tptacek) made by a given user.
 [**Threads**](#thread-feeds) | New comments made [in a given thread](https://hnrss.org/item?id=17821181).
-[**Formats**](#feed-formats) | In addition to RSS, all of the above are also available in [Atom](https://hnrss.org/newest.atom) and [JSON Feed](https://hnrss.org/newest.jsonfeed) formats.
+[**Formats**](#feed-formats) <sup class=new>new</sup> | In addition to RSS, all of the above are also available in [Atom](https://hnrss.org/newest.atom) and [JSON Feed](https://hnrss.org/newest.jsonfeed) formats.
 
 [Hacker News]: https://news.ycombinator.com/
 [Ask HN]: https://hnrss.org/ask
@@ -72,7 +72,7 @@ keywords with " OR ":
 https://hnrss.org/newest?q=git+OR+linux
 </pre>
 
-### Reply Feeds
+### Reply Feeds <sup class=new>new</sup>
 
 Keep an eye on replies to your comments:
 
@@ -120,7 +120,7 @@ https://hnrss.org/whoishiring/freelance
 https://hnrss.org/whoishiring
 </pre>
 
-If you're interested in something in particular, you can apply a
+<span class=new>new</span> If you're interested in something in particular, you can apply a
 `q=KEYWORD` parameter to only return relevant comments. For example,
 filter the top-level "Who is hiring?" comments to only those
 containing "React Native":
@@ -228,7 +228,7 @@ By default, feeds return 20 RSS items. This can be increased via the
 
 There is a hardcoded limit of 100 entries, so keep that in mind.
 
-#### Feed Formats
+#### Feed Formats <sup class=new>new</sup>
 
 By default, feeds come back as RSS. But if you add ".atom" or
 ".jsonfeed" to any endpoint you'll receive the contents in [Atom][] or
@@ -302,7 +302,7 @@ If hnrss.org has made your job or hobby project easier, and you want
 to show some gratitude, [donations are very much
 appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZP9Q7QUNS3QYY).
 
-Another way to support hnrss.org is to use this [DigitalOcean referral
+<span class=new>new</span> Another way to support hnrss.org is to use this [DigitalOcean referral
 link](https://m.do.co/c/1c19f7d73361) and receive $10 in credit. Once
 you've spent $25 with DigitalOcean, hnrss.org will receive $25 in
 credit.
