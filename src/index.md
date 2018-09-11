@@ -72,7 +72,7 @@ keywords with " OR ":
 https://hnrss.org/newest?q=git+OR+linux
 </pre>
 
-### Reply Feeds <sup class=new>new</sup>
+### Reply Feeds <sup class=new>new</sup> {#reply-feeds}
 
 Keep an eye on replies to your comments:
 
@@ -228,7 +228,7 @@ By default, feeds return 20 RSS items. This can be increased via the
 
 There is a hardcoded limit of 100 entries, so keep that in mind.
 
-#### Feed Formats <sup class=new>new</sup>
+#### Feed Formats <sup class=new>new</sup> {#feed-formats}
 
 By default, feeds come back as RSS. But if you add ".atom" or
 ".jsonfeed" to any endpoint you'll receive the contents in [Atom][] or
